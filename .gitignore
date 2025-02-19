@@ -1,0 +1,71 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# build output
+dist
+build
+.next
+out
+.turbo
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# database files
+*.db
+*.db-journal
+prisma/dev.db
+
+# testing
+coverage
+.nyc_output
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and editor files
+.idea
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment directories
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Misc
+*.tsbuildinfo
